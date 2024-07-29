@@ -1,1 +1,6 @@
-site/**/*
+# 禁止忽略site，此为Ci构建目录
+
+# site/**/*
+.cache
+.idea
+/run.log
